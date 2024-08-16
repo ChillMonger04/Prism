@@ -12,7 +12,7 @@ const Image = ({ uploadedImage, colorPalette }) => {
 
   return (
     <div className="imageDiv bg-[#141417] my-auto">
-      <div className="flex flex-col items-center justify-center my-8 md:my-6">
+      <div className="flex flex-col items-center justify-center my-8 md:my-4">
         <div>
           {/* Display the uploaded image or show the upload prompt */}
           {uploadedImage ? (
