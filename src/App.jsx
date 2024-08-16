@@ -2,6 +2,7 @@ import ColorThief from "colorthief";
 import Header from "./components/Header";
 import Image from "./components/Image";
 import URLSearch from "./components/URLSearch";
+import Footer from "./components/Footer";
 import { useState } from "react";
 
 const App = () => {
@@ -58,6 +59,7 @@ const App = () => {
       <Header handleChange={handleUpload} />
       <URLSearch handleUrlChange={handleUrlChange} />
       <Image uploadedImage={upload} colorPalette={colorPalette} />
+      <Footer />
     </div>
   );
 };
